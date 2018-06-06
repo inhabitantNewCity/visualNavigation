@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Заголовочные файлы\defineLocation">
+      <UniqueIdentifier>{38f5e7e5-a21d-45a3-91cc-36ea3a1f0095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\databaseAcces">
+      <UniqueIdentifier>{ef3d6584-3f6f-4340-84ee-cd33cf06145e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\imageProcessing">
+      <UniqueIdentifier>{b36e50a8-401b-438e-830d-6e534c0abe60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\videoFlowAccess">
+      <UniqueIdentifier>{cd31e7e5-306f-4d5d-a186-d40d6764a2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\utils">
+      <UniqueIdentifier>{33c48db3-6e5c-44b0-b85e-2bbc418ecd4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RecognationFaced.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simple_test.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
