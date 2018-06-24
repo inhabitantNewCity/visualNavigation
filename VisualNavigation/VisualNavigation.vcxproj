@@ -31,6 +31,8 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <WindowsAppContainer>false</WindowsAppContainer>
+    <CLRSupport>true</CLRSupport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -91,7 +93,8 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -139,10 +142,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="AgregationPointsAction.h" />
+    <ClInclude Include="AlgorithmFormater.h" />
+    <ClInclude Include="BaseImagePcessor.h" />
+    <ClInclude Include="CalculaterMetrics.h" />
+    <ClInclude Include="Contour.h" />
+    <ClInclude Include="DataBaseCache.h" />
+    <ClInclude Include="DataBaseStructure.h" />
+    <ClInclude Include="DecolorationAction.h" />
+    <ClInclude Include="DefinerLocationConveyor.h" />
+    <ClInclude Include="DefinitionOptContour.h" />
+    <ClInclude Include="DelineationAction.h" />
+    <ClInclude Include="EstimationLocationAction.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="ImageAction.h" />
+    <ClInclude Include="ImageProcessingConveyor.h" />
+    <ClInclude Include="PictureFormater.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="RecognationFaced.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SelectImageAction.h" />
+    <ClInclude Include="Shtrih.h" />
+    <ClInclude Include="TShtrihPicture.h" />
+    <ClInclude Include="VideoAccessAdapter.h" />
+    <ClInclude Include="VideoAccessWinAdapter.h" />
+    <ClInclude Include="VideoFlowAccessFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="simple_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ApplicationSettings.props" />
+    <None Include="database.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ClassDiagram\HighLevelArchitecture.PNG" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

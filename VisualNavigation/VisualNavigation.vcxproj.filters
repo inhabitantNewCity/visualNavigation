@@ -33,10 +33,101 @@
     <ClInclude Include="RecognationFaced.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="DataBaseCache.h">
+      <Filter>Заголовочные файлы\databaseAcces</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinerLocationConveyor.h">
+      <Filter>Заголовочные файлы\defineLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Заголовочные файлы\defineLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinitionOptContour.h">
+      <Filter>Заголовочные файлы\defineLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="EstimationLocationAction.h">
+      <Filter>Заголовочные файлы\defineLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="AgregationPointsAction.h">
+      <Filter>Заголовочные файлы\defineLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessingConveyor.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAction.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectImageAction.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseImagePcessor.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="DelineationAction.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="DecolorationAction.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour.h">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculaterMetrics.h">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoAccessAdapter.h">
+      <Filter>Заголовочные файлы\videoFlowAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFlowAccessFactory.h">
+      <Filter>Заголовочные файлы\videoFlowAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoAccessWinAdapter.h">
+      <Filter>Заголовочные файлы\videoFlowAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseStructure.h">
+      <Filter>Заголовочные файлы\databaseAcces</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Shtrih.h">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TShtrihPicture.h">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmFormater.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureFormater.h">
+      <Filter>Заголовочные файлы\imageProcessing</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="simple_test.cpp">
-      <Filter>Файлы ресурсов</Filter>
+      <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="database.props">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="ApplicationSettings.props">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ClassDiagram\HighLevelArchitecture.PNG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
 </Project>
