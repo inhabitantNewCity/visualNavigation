@@ -4,6 +4,8 @@
 #pragma once
 #include "Scene.h"
 #include "Contour.h"
+#include "TShtrihPicture.h"
+
 // главная функция прослеживания контуров
 void FindListContour(TShtrihPicture *shtrpic, TScene *SceneIn);
 // прослеживание внешнего контура
